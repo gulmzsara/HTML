@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Form Oluşturma</h1>
+    <center>
+        <caption>Üye Kayıt Formu</caption>
+    </center><br>
+    Ad Soyad: <br> <input type="text" name="adsoyad" id="idadsoyad" size="20" maxlength="30" required><br>
+    <!--required->girilmesi zorunlu-->
+    Email: <br><input type="text" name="email" id="email" required><br>
+    Web Site: <br> <input type="url" name="adres" id="adres"><br>
+    Yaşınız: <br> <input type="number" name="yas" id="yas" required><br>
+    <input type="submit" value="Onayla">
+    <input type="reset" value="Temizle">
+    <hr>
+    <h2> Tablo ile Form Hizalanması</h2>
+    <form name="kayit" action="kayit.php" method="get">
+        <table border="2">
+            <tr>
+                <td>Ad Soyad <input type="text"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

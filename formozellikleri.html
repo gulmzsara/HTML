@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1>Form Elemanlarının Özellikleri</h1>
+    <form autocomplete="on" method="get"></form>
+    Ad Soyad:<input type="text" size="10" placeholder="Ad Soyad gir" autofocus maxlength="30" required id="adsoyad"
+        disabled><br>
+    <input type="submit" value="Onayla">
+    <input type="reset" value="Temizle">
+
+    <h2>Metin Alanı</h2>
+    <form action="alan.php" name="test" method="get"></form>
+    Ad Soyad: <input type="text" size="30"><br>
+    Email: <input type="email" size="30"><br>
+    Öneri: <textarea name="oneri" cols="30" rows="5"></textarea><br>
+    <input type="submit" value="Onayla">
+    <input type="reset" value="Temizle">
+
+    <h3>Onay Kutusu - Checkbox</h3>
+    <form name="onay"></form>Sevdiğiniz sporu seçiniz.. <br>
+    <input type="checkbox" name="futbol">futbol <br>
+    <input type="checkbox" name="Basket">Basket <br>
+    <form name="secenek"></form>
+    <input type="radio" name="onay" value="Evet">Evet
+    <input type="radio" name="onay" value="Hayır">Hayır <br>
+    <input type="submit" value="Onayla">
+    <input type="reset" value="iptal">
+
+    <h3>Seçenek Listesi - Combobox</h3>
+    <form>Doğum Yeri:</form>
+    <select name="dogumyeri" id="dogumyeri">
+        <option>Ankara</option>
+        <option>İzmir</option>
+        <option>İstanbul</option>
+        <option>Şanlıurfa</option>
+        <option selected>Şanlıurfa</option>
+        <input type="submit"><input type="reset" value="iptal">
+    </select>
+</body>
+
+</html>
